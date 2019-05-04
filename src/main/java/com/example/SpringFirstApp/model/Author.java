@@ -42,6 +42,7 @@ public class Author {
                 ", lastName='" + lastName + '\'' +
                 ", books=" + books +
                 '}';
+
     }
 
     @ManyToMany(mappedBy = "authors")
