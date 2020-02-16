@@ -43,7 +43,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
         Book  ddd = new Book("Domain Driven Design", "1234", publisher);
         eric.getBooks().add(ddd);
         ddd.getAuthors().add(eric);
-
+        System.out.println("Test commit to the crude branch");
         authorRepository.save(eric);
         bookRepository.save(ddd);
 
